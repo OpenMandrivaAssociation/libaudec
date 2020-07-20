@@ -57,7 +57,7 @@ libaudec (lib audio decoder) is a wrapper library over ffmpeg, sndfile and libsa
 %install
 %ninja_install -C build
 
-%files
+%files -n audec
 %{_bindir}/audec
 
 %files -n %{develname}
