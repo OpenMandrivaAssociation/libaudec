@@ -13,7 +13,7 @@ License:        GPLv3
 Group:          Development/Libraries/C and C++
 URL:            https://git.sr.ht/~alextee/libaudec
 Source:         https://git.sr.ht/~alextee/libaudec/archive/v%{version}/%{name}-v%{version}.tar.gz
-Patch0:         libaudec.spec
+Patch0:         libaudec.patch
 BuildRequires:  cmake
 BuildRequires:  meson
 BuildRequires:  ninja
