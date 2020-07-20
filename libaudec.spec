@@ -29,10 +29,18 @@ This library is meant to be linked in statically to larger projects.
 
 Until version 1.0 is released, the API is subject to change.
 
+%package -n audec
+Summary:        libaudec (lib audio decoder) is a wrapper library over ffmpeg, sndfile and libsamplerate
+Group:          System/Libraries
+
+%description -n audec
+libaudec (lib audio decoder) is a wrapper library over ffmpeg, sndfile and libsamplerate for reading and resampling audio files
+
+
 %package -n %{develname}
 Summary:        Development files for libaudec
 Group:          Development/Libraries/C and C++
-Requires:       %{libname} = %{version}
+Requires:       audec = %{version}
 
 %description -n %{develname}
 This package holds the development files for libaudec,
