@@ -17,6 +17,7 @@ BuildRequires:  cmake
 BuildRequires:  meson
 BuildRequires:  ninja
 BuildRequires:  pkgconfig
+BuildRequires:  pkgconfig(samplerate)
 BuildRequires:  pkgconfig(sndfile)
 BuildRequires:  ffmpeg-devel
 
