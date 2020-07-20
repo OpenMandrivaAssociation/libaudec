@@ -49,7 +49,7 @@ libaudec (lib audio decoder) is a wrapper library over ffmpeg, sndfile and libsa
 %prep
 %setup -q -n libaudec-v%{version}
 
-rm -f tests
+rm -d tests
 
 %build
 %meson -Dffmpeg=enabled \
