@@ -12,7 +12,7 @@ Summary:        libaudec (lib audio decoder) is a wrapper library over ffmpeg, s
 License:        GPLv3
 Group:          Development/Libraries/C and C++
 URL:            https://git.sr.ht/~alextee/libaudec
-Source:         https://git.sr.ht/~alextee/libaudec/archive/v%{version}/%{name}-%{version}.tar.gz
+Source:         https://git.sr.ht/~alextee/libaudec/archive/v%{version}/%{name}-v%{version}.tar.gz
 BuildRequires:  meson
 BuildRequires:  ninja
 BuildRequires:  pkgconfig
