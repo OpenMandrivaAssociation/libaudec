@@ -73,3 +73,4 @@ rm -r tests
 %{_includedir}/audec/audec.h
 %{_libdir}/libaudec.a
 %{_libdir}/pkgconfig/audec.pc
+%{_libdir}/libaudec.so
