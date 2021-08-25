@@ -1,4 +1,5 @@
-%global debug_package %{nil}
+#global debug_package %{nil}
+%define _empty_manifest_terminate_build 0
 
 %define major 0
 
@@ -6,7 +7,7 @@
 %define develname	%mklibname audec -d
 
 Name:           libaudec
-Version:        0.2.4
+Version:        0.3.4
 Release:        1
 Summary:        libaudec (lib audio decoder) is a wrapper library over ffmpeg, sndfile and libsamplerate for reading and resampling audio files
 License:        GPLv3
@@ -72,3 +73,4 @@ rm -r tests
 %{_includedir}/audec/audec.h
 %{_libdir}/libaudec.a
 %{_libdir}/pkgconfig/audec.pc
+%{_libdir}/libaudec.so
