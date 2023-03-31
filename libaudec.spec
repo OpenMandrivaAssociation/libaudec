@@ -8,7 +8,7 @@
 
 Name:           libaudec
 Version:        0.3.4
-Release:        1
+Release:        2
 Summary:        libaudec (lib audio decoder) is a wrapper library over ffmpeg, sndfile and libsamplerate for reading and resampling audio files
 License:        GPLv3
 Group:          Development/Libraries/C and C++
